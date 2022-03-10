@@ -1,0 +1,26 @@
+{
+	"arrow function": {
+		"prefix": "af",
+		"body": [
+			"const ${1:fctName}=()=>{${2}",
+			"}"
+		],
+		"description": "arrow function"
+	},
+	"arrow function param": {
+		"prefix": "afa",
+		"body": [
+			"const ${1:fctName}=(${2:att})=>{${3}",
+			"}"
+		],
+		"description": "arrow function param"
+	},
+	"arrow function 2param": {
+		"prefix": "afaa",
+		"body": [
+			"const ${1:fctName}=(${2:att},${3:att})=>{${4}",
+			"}"
+		],
+		"description": "arrow function 2param"
+	}
+}

@@ -1,0 +1,28 @@
+{
+    "name": "arrow-function-snippets",
+    "displayName": "arrow function snippets",
+    "description": "snippets to create arrow functions",
+    "version": "0.0.1",
+    "publisher": "MarwenLabidi",
+	"keyword": ["marwen", "labidi", "marwenlabidi","arrow" ,"function","snippets"],
+
+	"repositery": {
+		"type": "git",
+		"url": ""
+
+	},
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "js",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
